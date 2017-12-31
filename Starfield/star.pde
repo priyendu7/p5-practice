@@ -1,8 +1,6 @@
 class Star {
 float x,px;
 float y,py;
-float z;
-//float factor;
 Star(){
  x= random(-width/2,width/2);                                //setting up random position
  y= random(-height/2,height/2);
